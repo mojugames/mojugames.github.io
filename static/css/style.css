@@ -1,0 +1,141 @@
+/*
+    Written By: Loremuel Gadrinab
+*/
+
+@font-face {
+    font-family: adumu;
+    src: url("../font/Roboto-Bold.ttf");
+  }
+
+  body.landing-core-body{
+    background: url("../img/background-comp.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+ video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  html, body, .cover-wrapper {
+    height: 100%;
+  }
+  body {
+    margin: 0;
+  }
+
+  .font-adumo{
+      font-family: "adumu";
+  }
+
+  .cover-wrapper{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+
+  .main-content{
+      position: relative;
+      height: 90%;
+  }
+  .header-wrap{
+      position: relative;
+      background-color: rgba(0, 0, 0, 0.8);
+  }
+  .main-menu-links a.nav-link{
+    color: #3affff !important;
+    font-family: "adumu";
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  .main-menu-links a.nav-link:hover{
+    color: #fff !important;
+  }
+
+  .social-links{
+    position: absolute;
+    right: 0px;
+    margin-top: 5px;
+  }
+
+.social-links1{
+    position: absolute;
+    left: 0px;
+    margin-top: 5px;
+}
+
+.social-links2{
+    position: relative;
+    left: 30px;
+    /*margin-top: 10px;*/
+}
+.social-links3{
+    position: relative;
+    left: 30px;
+    /*margin-top: 10px;*/
+}
+ .header-content .social-links a.nav-link{
+    padding-right: 5px;
+    padding-left: 5px;
+  }
+
+  .main-text{
+    line-height: inherit;
+    font-size: 3rem;
+      margin-top: 20px;
+      text-align: center;
+      color: #f4f2d8ff;
+      text-shadow:
+      -4px -4px 0 #a0984eff,
+       4px -4px 0 #a0984eff,
+       -4px 4px 0 #a0984eff,
+        4px 4px 0 #a0984eff;
+  }
+
+  .ember-knights-logo{
+    position: relative;
+    top: 10px;
+  }
+
+  .placed-at-bottom{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 0px;
+  }
+  .play-button-content a.btn-playnow{
+    background-color: #f8d9b5 !important;
+    color: #c22c2c !important;
+    border: 2px solid #c22c2c;
+    font-size: 30px;
+    padding-bottom: 0px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .play-button-content a.btn-playnow:hover{
+    background-color: #c22c2c !important;
+    color: #f8d9b5 !important;
+    border: 2px solid #f8d9b5;
+  }
+
+  .social-link-mobile-view{
+    display: none;
+  }
+  .ytdl-handle-btn{
+    display: none !important;
+  }
+
+  .image-logo-2{
+    height: 60px;
+  }
